@@ -1,0 +1,41 @@
+<!--
+ * 网页名：horizontalScrollDemo
+ * 说明 ：对水平滚动图片的演示。
+ *           
+ * 程序员：Spy
+ * E-mail：wjj474957860@gmail.com
+ * Date ：2013-04-11
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>horizontalScrollDemo</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div>
+            <div id="container">
+                <div id ="begin"  >
+                    <ul >
+                        <li><img src="img/1.jpg" alt="1" title="1"></li>
+                        <li><img src="img/2.jpg" alt="2" title="2"></li>
+                        <li><img src="img/3.jpg" alt="3" title="3"></li>
+                        <li><img src="img/4.jpg" alt="4" title="4"></li>
+                    </ul>
+                </div>
+                <div id ="end"></div>
+            </div>
+        </div>
+        
+        <!--调用Get(id)函数-->
+        <script src="js/get.js"></script>
+        
+         <!--调用滚动函数-->
+        <script src="js/scroll.js"></script>
+        
+         <!--选择滚动的方向和滚动的速度-->
+        <script>$HorizontalScroll("right",5);</script>
+        
+    </body>
+</html>
